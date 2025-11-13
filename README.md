@@ -76,6 +76,40 @@ SHAP (SHapley Additive exPlanations) helps understand **why** the model makes ce
 
 ---
 
+### 🗂 Project Structure
+
+Here is a brief explanation of each folder and key file in the project:
+
+- [`Data/`](./Data/) – All datasets used for training and analysis  
+  - `raw/` – Original raw CSVs for each league (`SerieA`, `LaLiga`, `PremierLeague`, `Bundesliga`, `Ligue1`)  
+  - `preprocessed/` – Cleaned and processed data ready for modeling  
+  - `final/` – Final merged dataset used for feature engineering and training  
+  > For more detailed information about the datasets, data sources, and processing steps, please see the [README inside the Data folder](./Data/README.md).
+
+- [`Notebooks/`](./Notebooks/) – Jupyter notebooks for exploration, feature engineering, modeling, and evaluation  
+  - `01_DataAnalysis.ipynb` – Explore and visualize raw data  
+  - `02_DataPreProcessing.ipynb` – Clean, handle missing values, and prepare data  
+  - `03_FeatureEngineering.ipynb` – Create new features like `xGdiff`, `position_ratio`  
+  - `04_ModelPrototyping.ipynb` – Train multiple ML models quickly  
+  - `05_ModelEvaluation.ipynb` – Evaluate models, generate charts, and compare results  
+
+- [`src/`](./src/) – Source code with reusable classes and functions  
+  - `data_loader.py` – Load and merge multiple CSV files into a single dataset  
+  - `data_preprocessing.py` – Handle cleaning, missing values, and basic transformations  
+  - `feature_engineering.py` – Create new features and perform transformations  
+  - `modelprototyping.py` – Train models like Linear Regression, Random Forest, Stacking  
+  - `evaluation.py` – Evaluate models systematically (metrics, plots)  
+  - `utils.py` – Helper functions for plotting, saving/loading files, and other reusable utilities  
+  - `__init__.py` – Makes the `src` folder a Python package  
+
+- [`models/`](./models/) – Store trained ML models and preprocessing objects (`.pkl`)  
+- [`results/`](./results/) – Store evaluation outputs, tables, metrics, and logs  
+- [`reports/`](./reports/) – Figures, plots, and PDF reports for presentations or publications  
+- [`requirements.txt`](./requirements.txt) – List of required Python packages  
+- [`LICENSE`](./LICENSE) – Project license  
+
+---
+
 ### 🚀 Future Work
 - Integrate **time-series analysis** for season-long trends  
 - Expand to **team-level efficiency modeling**  
@@ -88,7 +122,7 @@ SHAP (SHapley Additive exPlanations) helps understand **why** the model makes ce
 If you use this project for academic or portfolio purposes, please cite:
 
 > **Malikov, D. (2025). xGenius: Machine Learning for Soccer Player Performance Prediction. GitHub Repository.**  
-> [https://github.com/davronbekmalikov/xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction](https://github.com/davronbekmalikov/xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction)
+> [https://github.com/davronbekmalikov/xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction](https://github.com/davronbekmalikov/xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction)  
 
 ---
 
