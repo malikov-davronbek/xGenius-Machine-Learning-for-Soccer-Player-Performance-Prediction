@@ -1,0 +1,26 @@
+2025-11-21 16:34:45,863 - INFO - DataPreprocessor initialized.
+2025-11-21 16:34:45,863 - INFO - Starting preprocessing pipeline...
+2025-11-21 16:34:45,864 - INFO - Filled missing categorical values in 'id' with mode.
+2025-11-21 16:34:45,864 - INFO - Filled missing categorical values in 'player_name' with mode.
+2025-11-21 16:34:45,872 - INFO - Filled missing categorical values in 'games' with mode.
+2025-11-21 16:34:45,872 - INFO - Filled missing categorical values in 'time' with mode.
+2025-11-21 16:34:45,872 - INFO - Filled missing categorical values in 'goals' with mode.
+2025-11-21 16:34:45,872 - INFO - Filled missing categorical values in 'xG' with mode.
+2025-11-21 16:34:45,872 - INFO - Filled missing categorical values in 'assists' with mode.
+2025-11-21 16:34:45,880 - INFO - Filled missing categorical values in 'xA' with mode.
+2025-11-21 16:34:45,880 - INFO - Filled missing categorical values in 'shots' with mode.
+2025-11-21 16:34:45,880 - INFO - Filled missing categorical values in 'key_passes' with mode.
+2025-11-21 16:34:45,880 - INFO - Filled missing categorical values in 'yellow_cards' with mode.
+2025-11-21 16:34:45,880 - INFO - Filled missing categorical values in 'red_cards' with mode.
+2025-11-21 16:34:45,888 - INFO - Filled missing categorical values in 'position' with mode.
+2025-11-21 16:34:45,888 - INFO - Filled missing categorical values in 'team_title' with mode.
+2025-11-21 16:34:45,888 - INFO - Filled missing categorical values in 'npg' with mode.
+2025-11-21 16:34:45,896 - INFO - Filled missing categorical values in 'npxG' with mode.
+2025-11-21 16:34:45,896 - INFO - Filled missing categorical values in 'xGChain' with mode.
+2025-11-21 16:34:45,896 - INFO - Filled missing categorical values in 'xGBuildup' with mode.
+2025-11-21 16:34:45,904 - INFO - Filled missing categorical values in 'league' with mode.
+2025-11-21 16:34:45,904 - INFO - Filled missing categorical values in 'season' with mode.
+2025-11-21 16:34:46,020 - INFO - Applied Ordinal Encoding to: ['player_name', 'position', 'team_title', 'league']
+2025-11-21 16:34:46,022 - INFO - Applied MinMax scaling to: ['id', 'player_name', 'games', 'time', 'goals', 'assists', 'xA', 'shots', 'key_passes', 'yellow_cards', 'red_cards', 'position', 'team_title', 'npg', 'npxG', 'xGChain', 'xGBuildup', 'league', 'season']
+2025-11-21 16:34:46,022 - INFO - Preprocessing completed.
+2025-11-21 16:34:46,035 - INFO - Dropped target column: xG
