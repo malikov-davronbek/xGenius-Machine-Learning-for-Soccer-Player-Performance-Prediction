@@ -1,0 +1,9 @@
+,fit_intercept,alpha,max_depth,min_samples_split,n_estimators,n_neighbors,weights,C,kernel,learning_rate,Best_R2_Score
+LinearRegression,True,,,,,,,,,,0.9646948979016339
+Ridge,,0.1,,,,,,,,,0.9647800325676961
+Lasso,,0.001,,,,,,,,,0.9641601508019135
+DecisionTree,,,,10.0,,,,,,,0.987076457091311
+RandomForest,,,,,100.0,,,,,,0.9951369850474702
+GradientBoosting,,,,,200.0,,,,,0.1,0.99638185620957
+KNN,,,,,,7.0,distance,,,,0.9161060863587063
+SVM,,,,,,,,10.0,rbf,,0.9853179788127715

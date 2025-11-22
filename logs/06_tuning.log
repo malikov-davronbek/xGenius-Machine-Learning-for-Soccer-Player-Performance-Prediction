@@ -1,0 +1,35 @@
+2025-11-22 21:30:26,197 - INFO - HyperparameterTuner initialized successfully.
+2025-11-22 21:30:26,197 - INFO - Starting tuning for LinearRegression...
+2025-11-22 21:30:30,762 - INFO - ✔ LinearRegression tuned successfully.
+2025-11-22 21:30:30,762 - INFO -    → Best Params: {'fit_intercept': True}
+2025-11-22 21:30:30,762 - INFO -    → Best CV Score: 0.9647
+2025-11-22 21:30:30,762 - INFO - Starting tuning for Ridge...
+2025-11-22 21:30:31,004 - INFO - ✔ Ridge tuned successfully.
+2025-11-22 21:30:31,004 - INFO -    → Best Params: {'alpha': 0.1}
+2025-11-22 21:30:31,004 - INFO -    → Best CV Score: 0.9648
+2025-11-22 21:30:31,004 - INFO - Starting tuning for Lasso...
+2025-11-22 21:30:31,325 - INFO - ✔ Lasso tuned successfully.
+2025-11-22 21:30:31,325 - INFO -    → Best Params: {'alpha': 0.001}
+2025-11-22 21:30:31,325 - INFO -    → Best CV Score: 0.9642
+2025-11-22 21:30:31,325 - INFO - Starting tuning for DecisionTree...
+2025-11-22 21:30:34,476 - INFO - ✔ DecisionTree tuned successfully.
+2025-11-22 21:30:34,476 - INFO -    → Best Params: {'max_depth': None, 'min_samples_split': 10}
+2025-11-22 21:30:34,476 - INFO -    → Best CV Score: 0.9871
+2025-11-22 21:30:34,476 - INFO - Starting tuning for RandomForest...
+2025-11-22 21:33:48,487 - INFO - ✔ RandomForest tuned successfully.
+2025-11-22 21:33:48,487 - INFO -    → Best Params: {'max_depth': None, 'n_estimators': 100}
+2025-11-22 21:33:48,487 - INFO -    → Best CV Score: 0.9951
+2025-11-22 21:33:48,487 - INFO - Starting tuning for KNN...
+2025-11-22 21:33:52,827 - INFO - ✔ KNN tuned successfully.
+2025-11-22 21:33:52,827 - INFO -    → Best Params: {'n_neighbors': 7, 'weights': 'distance'}
+2025-11-22 21:33:52,827 - INFO -    → Best CV Score: 0.9161
+2025-11-22 21:33:52,827 - INFO - Starting tuning for SVM...
+2025-11-22 21:35:43,315 - INFO - ✔ SVM tuned successfully.
+2025-11-22 21:35:43,315 - INFO -    → Best Params: {'C': 10, 'kernel': 'rbf'}
+2025-11-22 21:35:43,315 - INFO -    → Best CV Score: 0.9853
+2025-11-22 21:35:43,315 - INFO - Starting tuning for GradientBoosting...
+2025-11-22 21:37:02,547 - INFO - ✔ GradientBoosting tuned successfully.
+2025-11-22 21:37:02,547 - INFO -    → Best Params: {'learning_rate': 0.1, 'n_estimators': 200}
+2025-11-22 21:37:02,547 - INFO -    → Best CV Score: 0.9964
+2025-11-22 21:37:02,563 - INFO - Results saved to C:\Users\davro\OneDrive\Desktop\xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction\results\final\final_tuning_results.csv
+2025-11-22 21:37:02,563 - INFO - All model tuning completed.

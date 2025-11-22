@@ -1,0 +1,50 @@
+2025-11-22 20:58:52,493 - INFO - ImprovementExperiment initialized.
+2025-11-22 20:59:01,144 - INFO - Dropped correlated features: ['time', 'xA', 'shots', 'key_passes', 'npg', 'npxG', 'xGdiff']
+2025-11-22 21:00:27,681 - INFO - Dropped irrelevant features: ['id', 'player_name', 'team_title', 'league']
+2025-11-22 21:00:33,597 - INFO - Linear Regression - Train R2: 0.9649, Test R2: 0.9687
+2025-11-22 21:00:33,625 - INFO - Lasso Regression - Train R2: 0.6475, Test R2: 0.6394
+2025-11-22 21:00:33,639 - INFO - Ridge Regression - Train R2: 0.9645, Test R2: 0.9683
+2025-11-22 21:00:33,788 - INFO - Decision Tree - Train R2: 0.9553, Test R2: 0.9449
+2025-11-22 21:00:39,448 - INFO - Random Forest - Train R2: 0.9757, Test R2: 0.9762
+2025-11-22 21:00:44,896 - INFO - Gradient Boosting - Train R2: 0.9956, Test R2: 0.9944
+2025-11-22 21:00:44,906 - INFO - Voting Regressor - Train R2: 0.9648, Test R2: 0.9686
+2025-11-22 21:01:15,170 - INFO - Stacking Regressor - Train R2: 0.9756, Test R2: 0.9768
+2025-11-22 21:01:15,177 - INFO - Results saved to: results/experiment\improvement_experiment_results.csv
+2025-11-22 21:04:00,325 - INFO - ImprovementExperiment initialized.
+2025-11-22 21:04:36,914 - INFO - ImprovementExperiment initialized.
+2025-11-22 21:04:44,151 - INFO - ImprovementExperiment initialized.
+2025-11-22 21:04:45,041 - INFO - Dropped correlated features: ['time', 'xA', 'shots', 'key_passes', 'npg', 'npxG', 'xGdiff']
+2025-11-22 21:04:45,982 - INFO - Dropped irrelevant features: ['id', 'player_name', 'team_title', 'league']
+2025-11-22 21:04:47,247 - INFO - Linear Regression - Train R2: 0.9649, Test R2: 0.9687
+2025-11-22 21:04:47,263 - INFO - Lasso Regression - Train R2: 0.6475, Test R2: 0.6394
+2025-11-22 21:04:47,271 - INFO - Ridge Regression - Train R2: 0.9645, Test R2: 0.9683
+2025-11-22 21:04:47,433 - INFO - Decision Tree - Train R2: 0.9553, Test R2: 0.9511
+2025-11-22 21:04:53,025 - INFO - Random Forest - Train R2: 0.9752, Test R2: 0.9757
+2025-11-22 21:04:58,067 - INFO - Gradient Boosting - Train R2: 0.9956, Test R2: 0.9944
+2025-11-22 21:04:58,084 - INFO - Voting Regressor - Train R2: 0.9648, Test R2: 0.9686
+2025-11-22 21:05:31,173 - INFO - Stacking Regressor - Train R2: 0.9781, Test R2: 0.9790
+2025-11-22 21:05:31,177 - INFO - Results saved to: results/without_tuning\improvement_experiment_results.csv
+2025-11-22 21:07:00,620 - INFO - ImprovementExperiment initialized.
+2025-11-22 21:07:01,443 - INFO - Dropped correlated features: ['time', 'xA', 'shots', 'key_passes', 'npg', 'npxG', 'xGdiff']
+2025-11-22 21:07:02,009 - INFO - Dropped irrelevant features: ['id', 'player_name', 'team_title', 'league']
+2025-11-22 21:07:02,617 - INFO - Linear Regression - Train R2: 0.9649, Test R2: 0.9687
+2025-11-22 21:07:02,625 - INFO - Lasso Regression - Train R2: 0.6475, Test R2: 0.6394
+2025-11-22 21:07:02,641 - INFO - Ridge Regression - Train R2: 0.9645, Test R2: 0.9683
+2025-11-22 21:07:02,819 - INFO - Decision Tree - Train R2: 0.9553, Test R2: 0.9483
+2025-11-22 21:07:08,548 - INFO - Random Forest - Train R2: 0.9755, Test R2: 0.9757
+2025-11-22 21:07:14,168 - INFO - Gradient Boosting - Train R2: 0.9956, Test R2: 0.9943
+2025-11-22 21:07:14,184 - INFO - Voting Regressor - Train R2: 0.9648, Test R2: 0.9686
+2025-11-22 21:07:45,131 - INFO - Stacking Regressor - Train R2: 0.9758, Test R2: 0.9773
+2025-11-22 21:07:45,146 - INFO - Results saved to: results\without_tuning\improvement_experiment_results.csv
+2025-11-22 21:08:44,933 - INFO - ImprovementExperiment initialized.
+2025-11-22 21:08:46,900 - INFO - Dropped correlated features: ['time', 'xA', 'shots', 'key_passes', 'npg', 'npxG', 'xGdiff']
+2025-11-22 21:08:47,657 - INFO - Dropped irrelevant features: ['id', 'player_name', 'team_title', 'league']
+2025-11-22 21:08:48,775 - INFO - Linear Regression - Train R2: 0.9649, Test R2: 0.9687
+2025-11-22 21:08:48,791 - INFO - Lasso Regression - Train R2: 0.6475, Test R2: 0.6394
+2025-11-22 21:08:48,799 - INFO - Ridge Regression - Train R2: 0.9645, Test R2: 0.9683
+2025-11-22 21:08:48,974 - INFO - Decision Tree - Train R2: 0.9553, Test R2: 0.9483
+2025-11-22 21:08:54,573 - INFO - Random Forest - Train R2: 0.9738, Test R2: 0.9743
+2025-11-22 21:09:00,786 - INFO - Gradient Boosting - Train R2: 0.9956, Test R2: 0.9944
+2025-11-22 21:09:00,801 - INFO - Voting Regressor - Train R2: 0.9648, Test R2: 0.9686
+2025-11-22 21:09:32,381 - INFO - Stacking Regressor - Train R2: 0.9769, Test R2: 0.9776
+2025-11-22 21:09:32,385 - INFO - Results saved to: C:\Users\davro\OneDrive\Desktop\xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction\results\without_tuning\improvement_experiment_results.csv

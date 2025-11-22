@@ -1,0 +1,5 @@
+2025-11-22 21:48:16,133 - INFO - Logger initialized for SHAP analysis.
+2025-11-22 21:48:20,960 - INFO - Starting SHAP value computation...
+2025-11-22 21:48:57,405 - INFO - SHAP values computed successfully.
+2025-11-22 21:49:33,015 - INFO - SHAP summary plot saved to C:\Users\davro\OneDrive\Desktop\xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction\results\shap_analysis\shap_summary_plot.png
+2025-11-22 21:49:36,196 - INFO - SHAP feature importance table saved to C:\Users\davro\OneDrive\Desktop\xGenius-Machine-Learning-for-Soccer-Player-Performance-Prediction\results\shap_analysis\shap_feature_importance.csv

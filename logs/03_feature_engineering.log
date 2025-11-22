@@ -1,0 +1,139 @@
+2025-11-22 16:10:51,297 - INFO - FeatureEngineer initialized.
+2025-11-22 16:10:51,297 - INFO - Starting feature engineering pipeline...
+2025-11-22 16:10:51,306 - INFO - Created goal-related features: aGg, gpm
+2025-11-22 16:10:51,316 - INFO - Created assist-related features: apg, apm
+2025-11-22 16:10:51,323 - INFO - Created shot-related features: shpg, shpm
+2025-11-22 16:10:51,334 - INFO - Created key pass-related features: kppg, kppm
+2025-11-22 16:10:51,358 - INFO - Created card-related features: ypg, ypm, rpg, rpm
+2025-11-22 16:10:51,369 - INFO - Created xG-related features: xGdiff, xGg
+2025-11-22 16:10:51,369 - INFO - Feature engineering completed.
+2025-11-22 16:12:02,290 - INFO - FeatureEngineer initialized.
+2025-11-22 16:12:02,290 - INFO - Starting feature engineering pipeline...
+2025-11-22 16:12:02,298 - INFO - Created goal-related features: aGg, gpm
+2025-11-22 16:12:02,305 - INFO - Created assist-related features: apg, apm
+2025-11-22 16:12:02,313 - INFO - Created shot-related features: shpg, shpm
+2025-11-22 16:12:02,319 - INFO - Created key pass-related features: kppg, kppm
+2025-11-22 16:12:02,319 - INFO - Created card-related features: ypg, ypm, rpg, rpm
+2025-11-22 16:12:02,336 - INFO - Created xG-related features: xGdiff, xGg
+2025-11-22 16:12:02,336 - INFO - Feature engineering completed.
+2025-11-22 16:13:09,940 - INFO - FeatureEngineer initialized.
+2025-11-22 16:13:09,940 - INFO - Starting feature engineering pipeline...
+2025-11-22 16:13:09,949 - INFO - Created goal-related features: aGg, gpm
+2025-11-22 16:13:09,955 - INFO - Created assist-related features: apg, apm
+2025-11-22 16:13:09,962 - INFO - Created shot-related features: shpg, shpm
+2025-11-22 16:13:09,967 - INFO - Created key pass-related features: kppg, kppm
+2025-11-22 16:13:09,983 - INFO - Created card-related features: ypg, ypm, rpg, rpm
+2025-11-22 16:13:09,986 - INFO - Created xG-related features: xGdiff, xGg
+2025-11-22 16:13:09,986 - INFO - Feature engineering completed.
+2025-11-22 16:13:42,365 - INFO - DataPreprocessor initialized.
+2025-11-22 16:13:42,365 - INFO - Starting preprocessing pipeline...
+2025-11-22 16:13:42,367 - INFO - Filled missing categorical values in 'id' with mode.
+2025-11-22 16:13:42,368 - INFO - Filled missing categorical values in 'player_name' with mode.
+2025-11-22 16:13:42,368 - INFO - Filled missing categorical values in 'games' with mode.
+2025-11-22 16:13:42,373 - INFO - Filled missing categorical values in 'time' with mode.
+2025-11-22 16:13:42,374 - INFO - Filled missing categorical values in 'goals' with mode.
+2025-11-22 16:13:42,377 - INFO - Filled missing categorical values in 'xG' with mode.
+2025-11-22 16:13:42,379 - INFO - Filled missing categorical values in 'assists' with mode.
+2025-11-22 16:13:42,381 - INFO - Filled missing categorical values in 'xA' with mode.
+2025-11-22 16:13:42,382 - INFO - Filled missing categorical values in 'shots' with mode.
+2025-11-22 16:13:42,383 - INFO - Filled missing categorical values in 'key_passes' with mode.
+2025-11-22 16:13:42,384 - INFO - Filled missing categorical values in 'yellow_cards' with mode.
+2025-11-22 16:13:42,384 - INFO - Filled missing categorical values in 'red_cards' with mode.
+2025-11-22 16:13:42,385 - INFO - Filled missing categorical values in 'position' with mode.
+2025-11-22 16:13:42,385 - INFO - Filled missing categorical values in 'team_title' with mode.
+2025-11-22 16:13:42,385 - INFO - Filled missing categorical values in 'npg' with mode.
+2025-11-22 16:13:42,392 - INFO - Filled missing categorical values in 'npxG' with mode.
+2025-11-22 16:13:42,396 - INFO - Filled missing categorical values in 'xGChain' with mode.
+2025-11-22 16:13:42,399 - INFO - Filled missing categorical values in 'xGBuildup' with mode.
+2025-11-22 16:13:42,400 - INFO - Filled missing categorical values in 'league' with mode.
+2025-11-22 16:13:42,401 - INFO - Filled missing categorical values in 'season' with mode.
+2025-11-22 16:13:42,408 - INFO - Filled missing categorical values in 'aGg' with mode.
+2025-11-22 16:13:42,415 - INFO - Filled missing categorical values in 'gpm' with mode.
+2025-11-22 16:13:42,418 - INFO - Filled missing categorical values in 'apg' with mode.
+2025-11-22 16:13:42,428 - INFO - Filled missing categorical values in 'apm' with mode.
+2025-11-22 16:13:42,432 - INFO - Filled missing categorical values in 'shpg' with mode.
+2025-11-22 16:13:42,445 - INFO - Filled missing categorical values in 'shpm' with mode.
+2025-11-22 16:13:42,445 - INFO - Filled missing categorical values in 'kppg' with mode.
+2025-11-22 16:13:42,461 - INFO - Filled missing categorical values in 'kppm' with mode.
+2025-11-22 16:13:42,465 - INFO - Filled missing categorical values in 'ypg' with mode.
+2025-11-22 16:13:42,473 - INFO - Filled missing categorical values in 'ypm' with mode.
+2025-11-22 16:13:42,477 - INFO - Filled missing categorical values in 'rpg' with mode.
+2025-11-22 16:13:42,481 - INFO - Filled missing categorical values in 'rpm' with mode.
+2025-11-22 16:13:42,484 - INFO - Filled missing categorical values in 'xGdiff' with mode.
+2025-11-22 16:13:42,489 - INFO - Filled missing categorical values in 'xGg' with mode.
+2025-11-22 16:13:42,518 - INFO - Applied MinMax scaling to: ['id', 'player_name', 'games', 'time', 'goals', 'assists', 'xA', 'shots', 'key_passes', 'yellow_cards', 'red_cards', 'position', 'team_title', 'npg', 'npxG', 'xGChain', 'xGBuildup', 'league', 'season', 'aGg', 'gpm', 'apg', 'apm', 'shpg', 'shpm', 'kppg', 'kppm', 'ypg', 'ypm', 'rpg', 'rpm', 'xGdiff', 'xGg']
+2025-11-22 16:13:42,518 - INFO - Preprocessing completed.
+2025-11-22 18:42:04,282 - INFO - DataPreprocessor initialized.
+2025-11-22 18:42:04,283 - INFO - Starting preprocessing pipeline...
+2025-11-22 18:42:04,290 - INFO - Filled missing categorical values in 'id' with mode.
+2025-11-22 18:42:04,290 - INFO - Filled missing categorical values in 'player_name' with mode.
+2025-11-22 18:42:04,298 - INFO - Filled missing categorical values in 'games' with mode.
+2025-11-22 18:42:04,298 - INFO - Filled missing categorical values in 'time' with mode.
+2025-11-22 18:42:04,298 - INFO - Filled missing categorical values in 'goals' with mode.
+2025-11-22 18:42:04,298 - INFO - Filled missing categorical values in 'xG' with mode.
+2025-11-22 18:42:04,298 - INFO - Filled missing categorical values in 'assists' with mode.
+2025-11-22 18:42:04,306 - INFO - Filled missing categorical values in 'xA' with mode.
+2025-11-22 18:42:04,306 - INFO - Filled missing categorical values in 'shots' with mode.
+2025-11-22 18:42:04,306 - INFO - Filled missing categorical values in 'key_passes' with mode.
+2025-11-22 18:42:04,306 - INFO - Filled missing categorical values in 'yellow_cards' with mode.
+2025-11-22 18:42:04,306 - INFO - Filled missing categorical values in 'red_cards' with mode.
+2025-11-22 18:42:04,315 - INFO - Filled missing categorical values in 'position' with mode.
+2025-11-22 18:42:04,315 - INFO - Filled missing categorical values in 'team_title' with mode.
+2025-11-22 18:42:04,315 - INFO - Filled missing categorical values in 'npg' with mode.
+2025-11-22 18:42:04,315 - INFO - Filled missing categorical values in 'npxG' with mode.
+2025-11-22 18:42:04,324 - INFO - Filled missing categorical values in 'xGChain' with mode.
+2025-11-22 18:42:04,324 - INFO - Filled missing categorical values in 'xGBuildup' with mode.
+2025-11-22 18:42:04,330 - INFO - Filled missing categorical values in 'league' with mode.
+2025-11-22 18:42:04,330 - INFO - Filled missing categorical values in 'season' with mode.
+2025-11-22 18:42:04,330 - INFO - Filled missing categorical values in 'league_weight' with mode.
+2025-11-22 18:42:04,394 - INFO - Applied Ordinal Encoding to: ['player_name', 'position', 'team_title', 'league']
+2025-11-22 18:42:04,416 - INFO - Applied MinMax scaling to: ['id', 'player_name', 'games', 'time', 'goals', 'assists', 'xA', 'shots', 'key_passes', 'yellow_cards', 'red_cards', 'position', 'team_title', 'npg', 'npxG', 'xGChain', 'xGBuildup', 'league', 'season', 'league_weight']
+2025-11-22 18:42:04,416 - INFO - Preprocessing completed.
+2025-11-22 18:42:26,275 - INFO - FeatureEngineer initialized.
+2025-11-22 18:42:26,275 - INFO - Starting feature engineering pipeline...
+2025-11-22 18:42:26,297 - INFO - Created goal-related features: aGg, gpm
+2025-11-22 18:42:26,325 - INFO - Created assist-related features: apg, apm
+2025-11-22 18:42:26,350 - INFO - Created shot-related features: shpg, shpm
+2025-11-22 18:42:26,365 - INFO - Created key pass-related features: kppg, kppm
+2025-11-22 18:42:26,388 - INFO - Created card-related features: ypg, ypm, rpg, rpm
+2025-11-22 18:42:26,396 - INFO - Created xG-related features: xGdiff, xGg
+2025-11-22 18:42:26,396 - INFO - Feature engineering completed.
+2025-11-22 18:42:36,678 - INFO - DataPreprocessor initialized.
+2025-11-22 18:42:36,678 - INFO - Starting preprocessing pipeline...
+2025-11-22 18:42:36,678 - INFO - Filled missing categorical values in 'id' with mode.
+2025-11-22 18:42:36,678 - INFO - Filled missing categorical values in 'player_name' with mode.
+2025-11-22 18:42:36,678 - INFO - Filled missing categorical values in 'games' with mode.
+2025-11-22 18:42:36,678 - INFO - Filled missing categorical values in 'time' with mode.
+2025-11-22 18:42:36,686 - INFO - Filled missing categorical values in 'goals' with mode.
+2025-11-22 18:42:36,686 - INFO - Filled missing categorical values in 'xG' with mode.
+2025-11-22 18:42:36,686 - INFO - Filled missing categorical values in 'assists' with mode.
+2025-11-22 18:42:36,686 - INFO - Filled missing categorical values in 'xA' with mode.
+2025-11-22 18:42:36,686 - INFO - Filled missing categorical values in 'shots' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'key_passes' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'yellow_cards' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'red_cards' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'position' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'team_title' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'npg' with mode.
+2025-11-22 18:42:36,694 - INFO - Filled missing categorical values in 'npxG' with mode.
+2025-11-22 18:42:36,702 - INFO - Filled missing categorical values in 'xGChain' with mode.
+2025-11-22 18:42:36,702 - INFO - Filled missing categorical values in 'xGBuildup' with mode.
+2025-11-22 18:42:36,702 - INFO - Filled missing categorical values in 'league' with mode.
+2025-11-22 18:42:36,709 - INFO - Filled missing categorical values in 'season' with mode.
+2025-11-22 18:42:36,709 - INFO - Filled missing categorical values in 'league_weight' with mode.
+2025-11-22 18:42:36,709 - INFO - Filled missing categorical values in 'aGg' with mode.
+2025-11-22 18:42:36,717 - INFO - Filled missing categorical values in 'gpm' with mode.
+2025-11-22 18:42:36,725 - INFO - Filled missing categorical values in 'apg' with mode.
+2025-11-22 18:42:36,733 - INFO - Filled missing categorical values in 'apm' with mode.
+2025-11-22 18:42:36,733 - INFO - Filled missing categorical values in 'shpg' with mode.
+2025-11-22 18:42:36,733 - INFO - Filled missing categorical values in 'shpm' with mode.
+2025-11-22 18:42:36,749 - INFO - Filled missing categorical values in 'kppg' with mode.
+2025-11-22 18:42:36,749 - INFO - Filled missing categorical values in 'kppm' with mode.
+2025-11-22 18:42:36,749 - INFO - Filled missing categorical values in 'ypg' with mode.
+2025-11-22 18:42:36,769 - INFO - Filled missing categorical values in 'ypm' with mode.
+2025-11-22 18:42:36,769 - INFO - Filled missing categorical values in 'rpg' with mode.
+2025-11-22 18:42:36,775 - INFO - Filled missing categorical values in 'rpm' with mode.
+2025-11-22 18:42:36,775 - INFO - Filled missing categorical values in 'xGdiff' with mode.
+2025-11-22 18:42:36,792 - INFO - Filled missing categorical values in 'xGg' with mode.
+2025-11-22 18:42:36,809 - INFO - Applied MinMax scaling to: ['id', 'player_name', 'games', 'time', 'goals', 'assists', 'xA', 'shots', 'key_passes', 'yellow_cards', 'red_cards', 'position', 'team_title', 'npg', 'npxG', 'xGChain', 'xGBuildup', 'league', 'season', 'league_weight', 'aGg', 'gpm', 'apg', 'apm', 'shpg', 'shpm', 'kppg', 'kppm', 'ypg', 'ypm', 'rpg', 'rpm', 'xGdiff', 'xGg']
+2025-11-22 18:42:36,809 - INFO - Preprocessing completed.
