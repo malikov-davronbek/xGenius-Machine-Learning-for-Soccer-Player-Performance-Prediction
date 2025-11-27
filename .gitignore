@@ -1,0 +1,42 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore model checkpoints (optional)
+*.h5
+*.ckpt
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment configs
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore Docker cache
+*.dockerignore
+
+# Ignore build folders
+build/
+dist/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
