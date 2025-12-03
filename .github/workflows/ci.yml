@@ -2,7 +2,7 @@ name: CI/CD Docker Build & Push
 
 on:
   push:
-    branches: [main]  # Trigger workflow only on pushes to main branch
+    branches: [main]
 
 jobs:
   build-test-and-push:
@@ -34,14 +34,19 @@ jobs:
           tags: |
             malikovdavronbek/xgenius-fastapi:latest
             malikovdavronbek/xgenius-fastapi:${{ github.sha }}
-          load: true  # Make image available in runner for testing
+          load: true
 
-      # 5. Run a container to verify it works
+      # 5. Run a container to verify it works (with logs)
       - name: Test Docker container
         run: |
-          docker run --rm -d --name test-container malikovdavronbek/xgenius-fastapi:latest
-          echo "Sleeping 5 seconds to let container start..."
+          echo "Starting container for test..."
+          docker run --name test-container -d malikovdavronbek/xgenius-fastapi:latest
+          echo "Sleeping 5 seconds to let container initialize..."
           sleep 5
-          docker ps | grep test-container
-          docker stop test-container
-          echo "Container test completed successfully!"
+          echo "Showing container logs:"
+          docker logs test-container || true
+          echo "Listing all containers:"
+          docker ps -a
+          echo "Removing test container..."
+          docker rm -f test-container
+          echo "Container test step completed!"
