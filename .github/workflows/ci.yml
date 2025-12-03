@@ -32,14 +32,14 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            malikov-d/xgenius-fastapi:latest
-            malikov-d/xgenius-fastapi:${{ github.sha }}
+            malikovdavronbek/xgenius-fastapi:latest
+            malikovdavronbek/xgenius-fastapi:${{ github.sha }}
           load: true  # Make image available in runner for testing
 
       # 5. Run a container to verify it works
       - name: Test Docker container
         run: |
-          docker run --rm -d --name test-container malikov-d/xgenius-fastapi:latest
+          docker run --rm -d --name test-container malikovdavronbek/xgenius-fastapi:latest
           echo "Sleeping 5 seconds to let container start..."
           sleep 5
           docker ps | grep test-container
