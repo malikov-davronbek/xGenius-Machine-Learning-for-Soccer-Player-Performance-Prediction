@@ -1,4 +1,4 @@
-# 📂 Data Folder — xGenius Project
+# 📂 Data Folder: xGenius Project
 
 The `Data/` folder contains all datasets used in the **xGenius Machine Learning project** for soccer player performance prediction.  
 This folder is organized to **separate raw, preprocessed, and final datasets** to ensure **reproducibility, clarity, and ease of use**.
@@ -13,9 +13,9 @@ This folder is organized to **separate raw, preprocessed, and final datasets** t
 - Each CSV corresponds to one of the **Top 5 European leagues**.  
 - **Purpose:** Keep original data intact for reproducibility.  
 - **Example files:**
-  - `PremierLeague.csv` — Player stats for Premier League  
-  - `LaLiga.csv` — Player stats for La Liga  
-  - `SerieA.csv`, `Bundesliga.csv`, `Ligue1.csv` — Other league datasets  
+  - `PremierLeague.csv`: Player stats for Premier League  
+  - `LaLiga.csv`: Player stats for La Liga  
+  - `SerieA.csv`, `Bundesliga.csv`, `Ligue1.csv`: Other league datasets  
 
 ### 2️⃣ preprocessed/
 - Contains **cleaned and transformed datasets** after initial preprocessing.  
@@ -32,10 +32,10 @@ This folder is organized to **separate raw, preprocessed, and final datasets** t
   - Includes all leagues in a single DataFrame  
   - Cleaned, normalized, and ready for machine learning  
   - Contains engineered features used for model training:  
-    - `xGg` — Expected Goals per Game  
-    - `xGdiff` — Difference between xGg and actual goals  
-    - `position_ratio` — Influence based on player position  
-    - `league_ratio` — League strength factor  
+    - `xGg`: Expected Goals per Game  
+    - `xGdiff`: Difference between xGg and actual goals  
+    - `position_ratio`: Influence based on player position  
+    - `league_ratio`: League strength factor  
 - **Purpose:** This dataset is the main input for **src scripts and notebooks**.
 
 ---

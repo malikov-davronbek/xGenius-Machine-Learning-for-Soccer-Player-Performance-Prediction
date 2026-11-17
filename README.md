@@ -1,8 +1,8 @@
-<!-- # ⚽ Model Card: xGenius — Machine Learning for Soccer Player Performance Prediction
+<!-- # ⚽ Model Card: xGenius, Machine Learning for Soccer Player Performance Prediction
 
 ### 🧩 Overview
 **xGenius** is a **predictive machine learning model** designed to evaluate and forecast **professional soccer players’ performance** using advanced metrics such as Expected Goals (xG) and actual goals (aG).  
-By comparing predicted xG with real-world outcomes, **xGenius** identifies efficient and underperforming players across Europe’s top 5 leagues — helping coaches, analysts, and clubs make more informed, data-driven decisions.
+By comparing predicted xG with real-world outcomes, **xGenius** identifies efficient and underperforming players across Europe’s top 5 leagues, helping coaches, analysts, and clubs make more informed, data-driven decisions.
 
 This project combines **data science, feature engineering, and explainable AI (SHAP)** to transform complex performance data into actionable insights for player evaluation, scouting, and salary prediction.
 
@@ -37,10 +37,10 @@ This project combines **data science, feature engineering, and explainable AI (S
 - `xGChain`, `xGBuildup`, `npxG`, `position_ratio`, `league_ratio`
 
 **Engineered Metrics:**
-- `gpg` — Goals per game  
-- `xGg` — Expected goals per game  
-- `xGdiff` — (xGg - aGg) performance difference  
-- `weekly_gross_base_salary_gbp` — Salary impact variable  
+- `gpg`: Goals per game  
+- `xGg`: Expected goals per game  
+- `xGdiff`: (xGg - aGg) performance difference  
+- `weekly_gross_base_salary_gbp`: Salary impact variable  
 
 ---
 
@@ -101,14 +101,14 @@ Machine Learning & Deep Learning Engineer
 
 ---
 
-> 🧠 *xGenius — Smart Analytics for Smarter Football Decisions* -->
+> 🧠 *xGenius, Smart Analytics for Smarter Football Decisions* -->
 
 
-# ⚽ Model Card: xGenius — Machine Learning for Soccer Player Performance Prediction
+# ⚽ Model Card: xGenius: Machine Learning for Soccer Player Performance Prediction
 
 ### 🧩 Overview
 **xGenius** is a **predictive machine learning model** designed to evaluate and forecast **professional soccer players’ performance** using advanced metrics such as Expected Goals (xG) and actual goals (aG).  
-By comparing predicted xG with real-world outcomes, **xGenius** identifies efficient and underperforming players across Europe’s top 5 leagues — helping coaches, analysts, and clubs make more informed, data-driven decisions.
+By comparing predicted xG with real-world outcomes, **xGenius** identifies efficient and underperforming players across Europe’s top 5 leagues, helping coaches, analysts, and clubs make more informed, data-driven decisions.
 
 This project combines **data science, feature engineering, and explainable AI (SHAP)** to transform complex performance data into actionable insights for player evaluation, scouting, and salary prediction.
 
@@ -143,10 +143,10 @@ This project combines **data science, feature engineering, and explainable AI (S
 - `xGChain`, `xGBuildup`, `npxG`, `position_ratio`, `league_ratio`
 
 **Engineered Metrics:**
-- `gpg` — Goals per game  
-- `xGg` — Expected goals per game  
-- `xGdiff` — (xGg - aGg) performance difference  
-- `weekly_gross_base_salary_gbp` — Salary impact variable  
+- `gpg`: Goals per game  
+- `xGg`: Expected goals per game  
+- `xGdiff`: (xGg - aGg) performance difference  
+- `weekly_gross_base_salary_gbp`: Salary impact variable  
 
 ---
 
@@ -241,4 +241,4 @@ Machine Learning & Deep Learning Engineer
 
 ---
 
-> 🧠 *xGenius — Smart Analytics for Smarter Football Decisions*
+> 🧠 *xGenius, Smart Analytics for Smarter Football Decisions*
